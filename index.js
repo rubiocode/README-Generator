@@ -256,7 +256,7 @@ If you have any questions or issues on this repository please contact ${response
 
 const init = () => {
     promptUser()
-        .then((response) => writeMarkdown(`${response.title} README.md`, writeToFile(response)))
+        .then((response) => writeMarkdown(`README.md`, writeToFile(response)))
         .then(() => console.log('Congratulations! You have successfully created a ReadMe file'))
         .catch((err) => console.error(err));
 };

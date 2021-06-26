@@ -1,6 +1,6 @@
 <div align="center">
 
-# READMe file generator using Node.js and ES6
+# READme file generator using Node.js and ES6
  
 
 GitHub Repository: https://github.com/rubiocode/README-Generator
